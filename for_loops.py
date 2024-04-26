@@ -26,3 +26,4 @@ for x in fruits:
     continue                                # This will now loop until it reaches banana. Once banana has been reached, it will skip banana and move onto cherry 
   print(x)                    
 
+#
