@@ -40,4 +40,3 @@ else:                                       # This loop will now run until the v
   print("i is no longer less than 6")       # When the while condition is not true, the else statement is added to instruct the while loop 
                                             # that the while loop is no longer true and to run the block of code, set under else.
 
-
