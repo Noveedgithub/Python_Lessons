@@ -20,7 +20,7 @@ for x in fruits:
 # THE CONTINUE STATEMENT
 # The continue statement stops the loop (iteration) at the set condition and then continues after
 
-fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry", "tomato"]
 for x in fruits:
   if x == "banana":                         # A continue condition has been set to skip once the loop has reached banana
     continue                                # This will now loop until it reaches banana. Once banana has been reached, it will skip banana and move onto cherry 
