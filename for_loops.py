@@ -4,6 +4,12 @@
 fruits = ["apple", "banana", "cherry"]      # FOR LOOPING THROUGH A LIST, SET, TUPLE AND DICTIONARY
 for x in fruits:                            # a for loop has been set to loop continuously in the fruit list and has assigned a variable x
   print(x)                                  # this will now start by printing "apple", then it will loops back and print banana etc until it reaches the end of the list
+  
+  
+# Looping through a string.
+
+for x in "banana":                          # This loops will print each letter of the word banana, on a seperate line.
+  print(x) 
 
 
 # THE BREAK STATEMENT
@@ -25,3 +31,11 @@ for x in fruits:
   if x == "banana":                         # A continue condition has been set to skip once the loop has reached banana
     continue                                # This will now loop until it reaches banana. Once banana has been reached, it will skip banana and move onto cherry 
   print(x)                    
+  
+  
+# THE RANGE FUNCTION - range()
+# To loop through a set of code a specified number of times, we can use the range() function,
+# The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and ends at a specified number.
+
+for x in range(6):                          # The range has been set to 6. This will now print number upto 5 on a seperate line. 
+  print(x)                                  # This is because the (6) refers to index positions and index positions start at 0. (0=1, 1=2, 2=3 etc)
